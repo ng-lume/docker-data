@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER "Dylan Lindgren" <dylan.lindgren@gmail.com>
+MAINTAINER "Zak Henry" <zak.henry@gmail.com>
 
 RUN mkdir -p /data
 VOLUME ["/data"]
