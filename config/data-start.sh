@@ -9,5 +9,6 @@ cat /opt/etc/data-notice.txt /data${API_PATH}/${API_DOTENV} > /data${API_PATH}/.
 
 
 sed -i "s/%MAILCATCHER_PORT_1025_TCP_ADDR%/$MAILCATCHER_PORT_1025_TCP_ADDR/" /data${API_PATH}/.env
+sed -i "s/%QUEUE_PORT_11300_TCP_ADDR%/$QUEUE_PORT_11300_TCP_ADDR/" /data${API_PATH}/.env
 
 exit 0;
