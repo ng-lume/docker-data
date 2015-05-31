@@ -1,4 +1,4 @@
-FROM nglume/docker-base
+FROM spira/docker-base
 
 MAINTAINER "Zak Henry" <zak.henry@gmail.com>
 
